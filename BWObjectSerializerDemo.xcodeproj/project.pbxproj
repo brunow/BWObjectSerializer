@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E725139D15B9CDF1005C0434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E725139C15B9CDF1005C0434 /* UIKit.framework */; };
+		E725139F15B9CDF1005C0434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E725139E15B9CDF1005C0434 /* Foundation.framework */; };
+		E72513A115B9CDF1005C0434 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72513A015B9CDF1005C0434 /* CoreGraphics.framework */; };
+		E72513A715B9CDF1005C0434 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E72513A515B9CDF1005C0434 /* InfoPlist.strings */; };
+		E72513A915B9CDF1005C0434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513A815B9CDF1005C0434 /* main.m */; };
+		E72513AD15B9CDF1005C0434 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513AC15B9CDF1005C0434 /* AppDelegate.m */; };
+		E72513B515B9CDF1005C0434 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72513B415B9CDF1005C0434 /* SenTestingKit.framework */; };
+		E72513B615B9CDF1005C0434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E725139C15B9CDF1005C0434 /* UIKit.framework */; };
+		E72513B715B9CDF1005C0434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E725139E15B9CDF1005C0434 /* Foundation.framework */; };
+		E72513BF15B9CDF1005C0434 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E72513BD15B9CDF1005C0434 /* InfoPlist.strings */; };
+		E72513C215B9CDF1005C0434 /* BWObjectSerializerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513C115B9CDF1005C0434 /* BWObjectSerializerDemoTests.m */; };
+		E72513D315B9CE0A005C0434 /* BWObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513CD15B9CE0A005C0434 /* BWObjectSerializer.m */; };
+		E72513D415B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513CF15B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.m */; };
+		E72513D515B9CE0A005C0434 /* BWObjectSerializerMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513D215B9CE0A005C0434 /* BWObjectSerializerMapping.m */; };
+		E72513D815B9CE22005C0434 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513D715B9CE22005C0434 /* Item.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E72513B815B9CDF1005C0434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E725138F15B9CDF1005C0434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E725139715B9CDF1005C0434;
+			remoteInfo = BWObjectSerializerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E725139815B9CDF1005C0434 /* BWObjectSerializerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWObjectSerializerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E725139C15B9CDF1005C0434 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E725139E15B9CDF1005C0434 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E72513A015B9CDF1005C0434 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E72513A415B9CDF1005C0434 /* BWObjectSerializerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWObjectSerializerDemo-Info.plist"; sourceTree = "<group>"; };
+		E72513A615B9CDF1005C0434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E72513A815B9CDF1005C0434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E72513AA15B9CDF1005C0434 /* BWObjectSerializerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BWObjectSerializerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E72513AB15B9CDF1005C0434 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E72513AC15B9CDF1005C0434 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E72513B315B9CDF1005C0434 /* BWObjectSerializerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWObjectSerializerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72513B415B9CDF1005C0434 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E72513BC15B9CDF1005C0434 /* BWObjectSerializerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWObjectSerializerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E72513BE15B9CDF1005C0434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E72513C015B9CDF1005C0434 /* BWObjectSerializerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWObjectSerializerDemoTests.h; sourceTree = "<group>"; };
+		E72513C115B9CDF1005C0434 /* BWObjectSerializerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWObjectSerializerDemoTests.m; sourceTree = "<group>"; };
+		E72513CC15B9CE0A005C0434 /* BWObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWObjectSerializer.h; sourceTree = "<group>"; };
+		E72513CD15B9CE0A005C0434 /* BWObjectSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWObjectSerializer.m; sourceTree = "<group>"; };
+		E72513CE15B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWObjectSerializerAttributeMapping.h; sourceTree = "<group>"; };
+		E72513CF15B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWObjectSerializerAttributeMapping.m; sourceTree = "<group>"; };
+		E72513D015B9CE0A005C0434 /* BWObjectSerializerBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWObjectSerializerBlocks.h; sourceTree = "<group>"; };
+		E72513D115B9CE0A005C0434 /* BWObjectSerializerMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWObjectSerializerMapping.h; sourceTree = "<group>"; };
+		E72513D215B9CE0A005C0434 /* BWObjectSerializerMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWObjectSerializerMapping.m; sourceTree = "<group>"; };
+		E72513D615B9CE22005C0434 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		E72513D715B9CE22005C0434 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E725139515B9CDF1005C0434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E725139D15B9CDF1005C0434 /* UIKit.framework in Frameworks */,
+				E725139F15B9CDF1005C0434 /* Foundation.framework in Frameworks */,
+				E72513A115B9CDF1005C0434 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72513AF15B9CDF1005C0434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72513B515B9CDF1005C0434 /* SenTestingKit.framework in Frameworks */,
+				E72513B615B9CDF1005C0434 /* UIKit.framework in Frameworks */,
+				E72513B715B9CDF1005C0434 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E725138D15B9CDF1005C0434 = {
+			isa = PBXGroup;
+			children = (
+				E72513CB15B9CE0A005C0434 /* BWObjectSerializer */,
+				E72513A215B9CDF1005C0434 /* BWObjectSerializerDemo */,
+				E72513BA15B9CDF1005C0434 /* BWObjectSerializerDemoTests */,
+				E725139B15B9CDF1005C0434 /* Frameworks */,
+				E725139915B9CDF1005C0434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E725139915B9CDF1005C0434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E725139815B9CDF1005C0434 /* BWObjectSerializerDemo.app */,
+				E72513B315B9CDF1005C0434 /* BWObjectSerializerDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E725139B15B9CDF1005C0434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E725139C15B9CDF1005C0434 /* UIKit.framework */,
+				E725139E15B9CDF1005C0434 /* Foundation.framework */,
+				E72513A015B9CDF1005C0434 /* CoreGraphics.framework */,
+				E72513B415B9CDF1005C0434 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72513A215B9CDF1005C0434 /* BWObjectSerializerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E72513AB15B9CDF1005C0434 /* AppDelegate.h */,
+				E72513AC15B9CDF1005C0434 /* AppDelegate.m */,
+				E72513A315B9CDF1005C0434 /* Supporting Files */,
+				E72513D615B9CE22005C0434 /* Item.h */,
+				E72513D715B9CE22005C0434 /* Item.m */,
+			);
+			path = BWObjectSerializerDemo;
+			sourceTree = "<group>";
+		};
+		E72513A315B9CDF1005C0434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72513A415B9CDF1005C0434 /* BWObjectSerializerDemo-Info.plist */,
+				E72513A515B9CDF1005C0434 /* InfoPlist.strings */,
+				E72513A815B9CDF1005C0434 /* main.m */,
+				E72513AA15B9CDF1005C0434 /* BWObjectSerializerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E72513BA15B9CDF1005C0434 /* BWObjectSerializerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E72513C015B9CDF1005C0434 /* BWObjectSerializerDemoTests.h */,
+				E72513C115B9CDF1005C0434 /* BWObjectSerializerDemoTests.m */,
+				E72513BB15B9CDF1005C0434 /* Supporting Files */,
+			);
+			path = BWObjectSerializerDemoTests;
+			sourceTree = "<group>";
+		};
+		E72513BB15B9CDF1005C0434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72513BC15B9CDF1005C0434 /* BWObjectSerializerDemoTests-Info.plist */,
+				E72513BD15B9CDF1005C0434 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E72513CB15B9CE0A005C0434 /* BWObjectSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				E72513CC15B9CE0A005C0434 /* BWObjectSerializer.h */,
+				E72513CD15B9CE0A005C0434 /* BWObjectSerializer.m */,
+				E72513CE15B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.h */,
+				E72513CF15B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.m */,
+				E72513D015B9CE0A005C0434 /* BWObjectSerializerBlocks.h */,
+				E72513D115B9CE0A005C0434 /* BWObjectSerializerMapping.h */,
+				E72513D215B9CE0A005C0434 /* BWObjectSerializerMapping.m */,
+			);
+			path = BWObjectSerializer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E725139715B9CDF1005C0434 /* BWObjectSerializerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72513C515B9CDF1005C0434 /* Build configuration list for PBXNativeTarget "BWObjectSerializerDemo" */;
+			buildPhases = (
+				E725139415B9CDF1005C0434 /* Sources */,
+				E725139515B9CDF1005C0434 /* Frameworks */,
+				E725139615B9CDF1005C0434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWObjectSerializerDemo;
+			productName = BWObjectSerializerDemo;
+			productReference = E725139815B9CDF1005C0434 /* BWObjectSerializerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E72513B215B9CDF1005C0434 /* BWObjectSerializerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72513C815B9CDF1005C0434 /* Build configuration list for PBXNativeTarget "BWObjectSerializerDemoTests" */;
+			buildPhases = (
+				E72513AE15B9CDF1005C0434 /* Sources */,
+				E72513AF15B9CDF1005C0434 /* Frameworks */,
+				E72513B015B9CDF1005C0434 /* Resources */,
+				E72513B115B9CDF1005C0434 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E72513B915B9CDF1005C0434 /* PBXTargetDependency */,
+			);
+			name = BWObjectSerializerDemoTests;
+			productName = BWObjectSerializerDemoTests;
+			productReference = E72513B315B9CDF1005C0434 /* BWObjectSerializerDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E725138F15B9CDF1005C0434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E725139215B9CDF1005C0434 /* Build configuration list for PBXProject "BWObjectSerializerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E725138D15B9CDF1005C0434;
+			productRefGroup = E725139915B9CDF1005C0434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E725139715B9CDF1005C0434 /* BWObjectSerializerDemo */,
+				E72513B215B9CDF1005C0434 /* BWObjectSerializerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E725139615B9CDF1005C0434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72513A715B9CDF1005C0434 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72513B015B9CDF1005C0434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72513BF15B9CDF1005C0434 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E72513B115B9CDF1005C0434 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E725139415B9CDF1005C0434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72513A915B9CDF1005C0434 /* main.m in Sources */,
+				E72513AD15B9CDF1005C0434 /* AppDelegate.m in Sources */,
+				E72513D315B9CE0A005C0434 /* BWObjectSerializer.m in Sources */,
+				E72513D415B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.m in Sources */,
+				E72513D515B9CE0A005C0434 /* BWObjectSerializerMapping.m in Sources */,
+				E72513D815B9CE22005C0434 /* Item.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72513AE15B9CDF1005C0434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72513C215B9CDF1005C0434 /* BWObjectSerializerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E72513B915B9CDF1005C0434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E725139715B9CDF1005C0434 /* BWObjectSerializerDemo */;
+			targetProxy = E72513B815B9CDF1005C0434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E72513A515B9CDF1005C0434 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72513A615B9CDF1005C0434 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E72513BD15B9CDF1005C0434 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72513BE15B9CDF1005C0434 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E72513C315B9CDF1005C0434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E72513C415B9CDF1005C0434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E72513C615B9CDF1005C0434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWObjectSerializerDemo/BWObjectSerializerDemo-Prefix.pch";
+				INFOPLIST_FILE = "BWObjectSerializerDemo/BWObjectSerializerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E72513C715B9CDF1005C0434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWObjectSerializerDemo/BWObjectSerializerDemo-Prefix.pch";
+				INFOPLIST_FILE = "BWObjectSerializerDemo/BWObjectSerializerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E72513C915B9CDF1005C0434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BWObjectSerializerDemo.app/BWObjectSerializerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWObjectSerializerDemo/BWObjectSerializerDemo-Prefix.pch";
+				INFOPLIST_FILE = "BWObjectSerializerDemoTests/BWObjectSerializerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E72513CA15B9CDF1005C0434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BWObjectSerializerDemo.app/BWObjectSerializerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWObjectSerializerDemo/BWObjectSerializerDemo-Prefix.pch";
+				INFOPLIST_FILE = "BWObjectSerializerDemoTests/BWObjectSerializerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E725139215B9CDF1005C0434 /* Build configuration list for PBXProject "BWObjectSerializerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72513C315B9CDF1005C0434 /* Debug */,
+				E72513C415B9CDF1005C0434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72513C515B9CDF1005C0434 /* Build configuration list for PBXNativeTarget "BWObjectSerializerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72513C615B9CDF1005C0434 /* Debug */,
+				E72513C715B9CDF1005C0434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E72513C815B9CDF1005C0434 /* Build configuration list for PBXNativeTarget "BWObjectSerializerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72513C915B9CDF1005C0434 /* Debug */,
+				E72513CA15B9CDF1005C0434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E725138F15B9CDF1005C0434 /* Project object */;
+}
