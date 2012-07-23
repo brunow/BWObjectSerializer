@@ -63,6 +63,12 @@
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)registerSerializer:(BWObjectSerializerMapping *)serializer {
+    [self registerSerializer:serializer withRootKeyPath:nil];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)registerSerializer:(BWObjectSerializerMapping *)serializer withRootKeyPath:(NSString *)keyPath {
     NSString *objectName = NSStringFromClass(serializer.objectClass);
     [self.serializers setObject:serializer forKey:objectName];

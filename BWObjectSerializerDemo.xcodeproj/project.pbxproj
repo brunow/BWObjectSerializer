@@ -23,6 +23,7 @@
 		E72513D815B9CE22005C0434 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E72513D715B9CE22005C0434 /* Item.m */; };
 		E7A6092715BA7F80002090F4 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A6092615BA7F80002090F4 /* libKiwi.a */; };
 		E7A6092F15BA80D2002090F4 /* BWObjectSerializerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A6092E15BA80D2002090F4 /* BWObjectSerializerSpecs.m */; };
+		E7B68AFF15BD57CD00002F08 /* Item2.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B68AFE15BD57CD00002F08 /* Item2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +60,10 @@
 		E72513D215B9CE0A005C0434 /* BWObjectSerializerMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWObjectSerializerMapping.m; sourceTree = "<group>"; };
 		E72513D615B9CE22005C0434 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		E72513D715B9CE22005C0434 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
-		E7A6092615BA7F80002090F4 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libKiwi.a; path = "../../../../xcodeBuilds/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
+		E7A6092615BA7F80002090F4 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKiwi.a; path = "../../../../xcodeBuilds/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
 		E7A6092E15BA80D2002090F4 /* BWObjectSerializerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWObjectSerializerSpecs.m; sourceTree = "<group>"; };
+		E7B68AFD15BD57CD00002F08 /* Item2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item2.h; sourceTree = "<group>"; };
+		E7B68AFE15BD57CD00002F08 /* Item2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 				E72513A315B9CDF1005C0434 /* Supporting Files */,
 				E72513D615B9CE22005C0434 /* Item.h */,
 				E72513D715B9CE22005C0434 /* Item.m */,
+				E7B68AFD15BD57CD00002F08 /* Item2.h */,
+				E7B68AFE15BD57CD00002F08 /* Item2.m */,
 			);
 			path = BWObjectSerializerDemo;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				E72513D415B9CE0A005C0434 /* BWObjectSerializerAttributeMapping.m in Sources */,
 				E72513D515B9CE0A005C0434 /* BWObjectSerializerMapping.m in Sources */,
 				E72513D815B9CE22005C0434 /* Item.m in Sources */,
+				E7B68AFF15BD57CD00002F08 /* Item2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

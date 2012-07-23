@@ -32,6 +32,12 @@
 + (BWObjectSerializer *)shared;
 
 /**
+ Register an object serialize
+ @param serializer Object serializer
+ */
+- (void)registerSerializer:(BWObjectSerializerMapping *)serializer;
+
+/**
  Register an object serialize with a root json key path
  @param serializer Object serializer
  @param keyPath Root json key path thath will be used to known which serializer to use
