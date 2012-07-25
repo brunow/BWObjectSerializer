@@ -26,6 +26,7 @@ describe(@"serializing", ^{
     beforeAll(^{
         item = [[Item alloc] init];
         item.title = @"Title";
+        item.emptyString = @"";
         item.itemID = [NSNumber numberWithInt:15];
         item.createdAt = [NSDate date];
         
@@ -72,6 +73,21 @@ describe(@"serializing", ^{
         
         NSDictionary *expected = [NSDictionary dictionaryWithObjectsAndKeys:
                                   item2.itemID, @"id",
+                                  nil];
+        
+        [[value should] equal:expected];
+    });
+    
+    it(@"should serialize empty string", ^{
+        __block BWObjectSerializerMapping *objectSerializer = nil;
+        [BWObjectSerializerMapping mappingForObject:[Item class] block:^(BWObjectSerializerMapping *serializer) {
+            [serializer mapKeyPath:@"emptyString" toAttribute:@"empty_string"];
+            objectSerializer = serializer;
+        }];
+        
+        NSDictionary *value = [[BWObjectSerializer shared] serializeObject:item withMapping:objectSerializer];
+        
+        NSDictionary *expected = [NSDictionary dictionaryWithObjectsAndKeys:
                                   nil];
         
         [[value should] equal:expected];

@@ -14,5 +14,6 @@
 @synthesize itemID;
 @synthesize createdAt;
 @synthesize imagePath;
+@synthesize emptyString;
 
 @end

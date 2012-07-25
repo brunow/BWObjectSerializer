@@ -14,5 +14,6 @@
 @property (nonatomic, strong) NSNumber *itemID;
 @property (nonatomic, strong) NSDate *createdAt;
 @property (nonatomic, strong) NSString *imagePath;
+@property (nonatomic, strong) NSString *emptyString;
 
 @end
