@@ -94,6 +94,10 @@
             value = [self formattedStringDate:value usingFormat:dateFormat];
         }
         
+        if ([value isKindOfClass:[NSString class]] && [(NSString *)value length] == 0) {
+            value = nil;
+        }
+        
         if (nil != value) {
             [params setObject:value forKey:attributeMapping.attribute];
         }
