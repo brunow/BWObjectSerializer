@@ -44,9 +44,17 @@ Will generate this dictionary:
     		};
 	}
 
+## Installation
+
+**Copy BWObjectSerializer dir** into your **project**.
+
+Or with **Cocoapods**
+
+	pod 'BWObjectSerializer', :git => "https://github.com/brunow/BWObjectSerializer.git", :tag => "0.1.1"
+
 ## ARC
 
-BWStatusBarOverlay is ARC only.
+BWObjectSerializer is ARC only.
 
 ## Contact
 
