@@ -48,7 +48,7 @@ Will generate this dictionary:
 
 **Copy BWObjectSerializer dir** into your **project**.
 
-Or with **Cocoapods**
+Or with **CocoaPods**
 
 	pod 'BWObjectSerializer', :git => "https://github.com/brunow/BWObjectSerializer.git", :tag => "0.1.1"
 
