@@ -103,8 +103,10 @@
         }
     }];
     
+    mapping.completionBlock(object, params);
+    
     return (nil == mapping.rootKeyPath)
-        ? params : [NSDictionary dictionaryWithObject:params forKey:mapping.rootKeyPath];
+        ? params : [NSDictionary dictionaryWithObject:[params copy] forKey:mapping.rootKeyPath];
 }
 
 

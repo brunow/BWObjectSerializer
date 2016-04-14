@@ -23,6 +23,7 @@
 
 @property (nonatomic, assign) Class objectClass;
 @property (nonatomic, readonly, strong) NSMutableDictionary *attributeMappings;
+@property (nonatomic, copy) BWObjectSerializeCompletionBlock completionBlock;
 
 /**
  Object json root key path
@@ -61,5 +62,7 @@
 - (void)mapKeyPath:(NSString *)keyPath
        toAttribute:(NSString *)attribute
        valueBlock:(BWObjectSerializeValueBlock)valueBlock;
+
+- (void)setCompletionBlock:(BWObjectSerializeCompletionBlock)completionBlock;
 
 @end

@@ -35,6 +35,10 @@
         
         [serializer mapKeyPath:@"createdAt" toAttribute:@"created_at" withDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
         
+        [serializer setCompletionBlock:^(id object, id JSON) {
+            
+        }];
+        
         [[BWObjectSerializer shared] registerSerializer:serializer withRootKeyPath:@"item"];
     }];
     

@@ -18,3 +18,4 @@
 #import <Foundation/Foundation.h>
 
 typedef id(^BWObjectSerializeValueBlock)(id value, id object);
+typedef void(^BWObjectSerializeCompletionBlock)(id object, NSMutableDictionary *JSON);
