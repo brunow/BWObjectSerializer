@@ -65,4 +65,6 @@
 
 - (void)setCompletionBlock:(BWObjectSerializeCompletionBlock)completionBlock;
 
+- (void)mapAttributeFromArray:(NSArray *)attributes;
+
 @end
