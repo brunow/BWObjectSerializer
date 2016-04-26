@@ -57,6 +57,7 @@
     if (self) {
         self.serializers = [NSMutableDictionary dictionary];
         self.defaultDateFormat = @"yyyy-MM-dd'T'HH:mm:ss'Z'"; // Rails date format
+        self.showKeyIfEmpty = NO;
     }
     return self;
 }
@@ -100,6 +101,9 @@
         
         if (nil != value) {
             [params setObject:value forKey:attributeMapping.attribute];
+            
+        } else if (self.shouldShowKeyIfEmpty && nil == value) {
+            [params setObject:[NSNull null] forKey:attributeMapping.attribute];
         }
     }];
     

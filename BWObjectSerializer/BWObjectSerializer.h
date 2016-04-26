@@ -25,6 +25,7 @@
  Date format that will be used if no date format is specified on the mapping
  */
 @property (nonatomic, strong) NSString *defaultDateFormat;
+@property (nonatomic, assign, getter=shouldShowKeyIfEmpty) BOOL showKeyIfEmpty;
 
 /**
  Shared instance
